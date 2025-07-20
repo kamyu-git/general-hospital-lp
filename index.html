@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医療法人社団 さくら総合病院</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-hospital-user"></i>
+                    <span>さくら総合病院</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">ホーム</a></li>
+                        <li><a href="#departments" class="nav-link">診療科目</a></li>
+                        <li><a href="#doctors" class="nav-link">医師紹介</a></li>
+                        <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero" id="home">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        患者様とご家族に寄り添う<br>
+                        <span class="highlight">やさしい医療</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        地域に根ざした総合病院として、最新の医療技術と温かい心で<br>
+                        皆様の健康をお守りいたします
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#departments" class="btn btn-primary">診療科目を見る</a>
+                        <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 診療科目一覧 -->
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">診療科目</h2>
+                <p class="section-subtitle">専門性の高い医療サービスを提供しています</p>
+            </div>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="card-title">内科</h3>
+                    <p class="card-description">
+                        一般内科から専門的な内科疾患まで、幅広い診療を行っています。
+                    </p>
+                    <ul class="card-list">
+                        <li>一般内科</li>
+                        <li>循環器内科</li>
+                        <li>消化器内科</li>
+                        <li>呼吸器内科</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3 class="card-title">外科</h3>
+                    <p class="card-description">
+                        最新の手術技術と設備で、安全で確実な治療を提供します。
+                    </p>
+                    <ul class="card-list">
+                        <li>一般外科</li>
+                        <li>心臓血管外科</li>
+                        <li>消化器外科</li>
+                        <li>整形外科</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3 class="card-title">小児科</h3>
+                    <p class="card-description">
+                        新生児から思春期まで、お子様の成長を見守り続けます。
+                    </p>
+                    <ul class="card-list">
+                        <li>一般小児科</li>
+                        <li>小児外科</li>
+                        <li>新生児科</li>
+                        <li>小児循環器科</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3 class="card-title">産婦人科</h3>
+                    <p class="card-description">
+                        女性の一生にわたる健康をサポートいたします。
+                    </p>
+                    <ul class="card-list">
+                        <li>産科</li>
+                        <li>婦人科</li>
+                        <li>不妊治療</li>
+                        <li>更年期外来</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="card-title">精神科</h3>
+                    <p class="card-description">
+                        心の健康問題に専門的なケアを提供します。
+                    </p>
+                    <ul class="card-list">
+                        <li>うつ病</li>
+                        <li>不安障害</li>
+                        <li>統合失調症</li>
+                        <li>認知症</li>
+                    </ul>
+                </div>
+                <div class="department-card">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="card-title">眼科</h3>
+                    <p class="card-description">
+                        最新の検査機器で目の健康を守ります。
+                    </p>
+                    <ul class="card-list">
+                        <li>白内障手術</li>
+                        <li>緑内障治療</li>
+                        <li>網膜疾患</li>
+                        <li>レーザー治療</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 医師紹介 -->
+    <section class="doctors" id="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">医師紹介</h2>
+                <p class="section-subtitle">経験豊富な専門医が皆様の健康をサポートします</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-avatar">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">田中 太郎</h3>
+                        <p class="doctor-title">院長・内科部長</p>
+                        <p class="doctor-specialty">循環器内科専門医</p>
+                        <p class="doctor-description">
+                            30年以上の臨床経験を持つ循環器内科のスペシャリスト。
+                            患者様一人ひとりに寄り添った丁寧な診療を心がけています。
+                        </p>
+                        <div class="doctor-credentials">
+                            <span class="credential">日本内科学会認定医</span>
+                            <span class="credential">日本循環器学会専門医</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-avatar">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">佐藤 花子</h3>
+                        <p class="doctor-title">外科部長</p>
+                        <p class="doctor-specialty">消化器外科専門医</p>
+                        <p class="doctor-description">
+                            腹腔鏡手術のエキスパートとして、低侵襲な治療を
+                            数多く手がけています。患者様の負担軽減を第一に考えています。
+                        </p>
+                        <div class="doctor-credentials">
+                            <span class="credential">日本外科学会専門医</span>
+                            <span class="credential">日本消化器外科学会専門医</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-avatar">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3 class="doctor-name">山田 次郎</h3>
+                        <p class="doctor-title">小児科部長</p>
+                        <p class="doctor-specialty">小児科専門医</p>
+                        <p class="doctor-description">
+                            お子様とご家族が安心して治療を受けられるよう、
+                            やさしく丁寧な診療を心がけています。
+                        </p>
+                        <div class="doctor-credentials">
+                            <span class="credential">日本小児科学会専門医</span>
+                            <span class="credential">小児循環器専門医</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">お問い合わせ</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>電話番号</h3>
+                            <p>03-1234-5678</p>
+                            <small>受付時間：平日 9:00〜17:00</small>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>住所</h3>
+                            <p>〒123-4567<br>東京都○○区○○1-2-3</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>診療時間</h3>
+                            <p>平日：9:00〜12:00 / 14:00〜17:00<br>
+                               土曜：9:00〜12:00<br>
+                               日祝：休診</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-hospital-user"></i>
+                    <span>さくら総合病院</span>
+                </div>
+                <p class="footer-text">
+                    &copy; 2024 さくら総合病院. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
